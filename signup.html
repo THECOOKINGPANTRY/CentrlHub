@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Create your workspace — CentrlHub</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700;750;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+
+    <main class="signup-page">
+
+        <!-- LEFT SIDE -->
+
+        <section class="signup-brand">
+
+            <div class="brand-content">
+
+                <a href="index.html" class="logo">
+                    CENTRL<span>HUB</span>
+                </a>
+
+                <div class="brand-message">
+
+                    <span class="eyebrow">
+                        YOUR BUSINESS, ALL IN ONE PLACE
+                    </span>
+
+                    <h1>
+                        Everything your business needs.
+                        <span>Nothing it doesn't.</span>
+                    </h1>
+
+                    <p>
+                        Bring customers, sales, products, money and your
+                        day-to-day operations together in one intelligent workspace.
+                    </p>
+
+                </div>
+
+                <div class="brand-footer">
+                    <span>Built for small business.</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- RIGHT SIDE -->
+
+        <section class="signup-form-section">
+
+            <div class="signup-container">
+
+                <div class="mobile-logo">
+                    <a href="index.html" class="logo">
+                        CENTRL<span>HUB</span>
+                    </a>
+                </div>
+
+
+                <div class="form-header">
+
+                    <span class="step">
+                        GET STARTED
+                    </span>
+
+                    <h2>
+                        Create your workspace
+                    </h2>
+
+                    <p>
+                        Start building your business workspace in just a few minutes.
+                    </p>
+
+                </div>
+
+
+                <form class="signup-form" id="signupForm">
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Full name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="James Smith"
+                            autocomplete="name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Work email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="you@company.com"
+                            autocomplete="email"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="password">
+                            Password
+                        </label>
+
+                        <div class="password-wrapper">
+
+                            <input
+                                type="password"
+                                id="password"
+                                name="password"
+                                placeholder="Create a password"
+                                autocomplete="new-password"
+                                minlength="8"
+                                required
+                            >
+
+                            <button
+                                type="button"
+                                class="password-toggle"
+                                id="passwordToggle"
+                                aria-label="Show password"
+                            >
+                                Show
+                            </button>
+
+                        </div>
+
+                        <span class="input-hint">
+                            Use at least 8 characters.
+                        </span>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="confirmPassword">
+                            Confirm password
+                        </label>
+
+                        <div class="password-wrapper">
+
+                            <input
+                                type="password"
+                                id="confirmPassword"
+                                name="confirmPassword"
+                                placeholder="Enter your password again"
+                                autocomplete="new-password"
+                                minlength="8"
+                                required
+                            >
+
+                            <button
+                                type="button"
+                                class="password-toggle"
+                                id="confirmPasswordToggle"
+                                aria-label="Show password"
+                            >
+                                Show
+                            </button>
+
+                        </div>
+
+                        <span
+                            class="password-error"
+                            id="passwordError"
+                        >
+                            Passwords do not match.
+                        </span>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="submit-button"
+                    >
+                        <span>Create workspace</span>
+                        <span class="arrow">→</span>
+                    </button>
+
+
+                    <p class="terms">
+                        By creating an account, you agree to our
+                        <a href="#">Terms</a>
+                        and
+                        <a href="#">Privacy Policy</a>.
+                    </p>
+
+                </form>
+
+
+                <div class="login-link">
+
+                    <span>Already have an account?</span>
+
+                    <a href="#">
+                        Log in
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="signup.js"></script>
+
+</body>
+</html>
