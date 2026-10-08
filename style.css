@@ -13,6 +13,7 @@
     --blue: #2563eb;
     --blue-dark: #1d4ed8;
     --blue-soft: #eff6ff;
+    --blue-border: #dbeafe;
 
     --background: #f7f8fa;
     --white: #ffffff;
@@ -979,12 +980,16 @@ button {
 
     padding: 0;
 
+    border: 0;
+
     background: transparent;
 
     color: var(--blue);
 
     font-size: 7px;
     font-weight: 650;
+
+    cursor: pointer;
 }
 
 
@@ -1506,6 +1511,31 @@ button {
     padding-bottom: 58px;
 }
 
+
+/* FOOTER BRAND */
+
+.footer-brand .footer-logo {
+    display: inline-block;
+
+    color: #ffffff;
+
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: -0.055em;
+
+    transition: opacity 0.2s ease;
+}
+
+.footer-brand .footer-logo span {
+    color: #ffffff;
+}
+
+.footer-brand .footer-logo:hover,
+.footer-brand .footer-logo:hover span {
+    color: #ffffff;
+    opacity: 0.8;
+}
+
 .footer-brand p {
     margin-top: 12px;
 
@@ -1513,6 +1543,9 @@ button {
 
     font-size: 10px;
 }
+
+
+/* FOOTER COLUMNS */
 
 .footer-column h4 {
     margin-bottom: 15px;
@@ -1538,6 +1571,9 @@ button {
 .footer-column a:hover {
     color: #ffffff;
 }
+
+
+/* FOOTER BOTTOM */
 
 .footer-bottom {
     display: flex;
